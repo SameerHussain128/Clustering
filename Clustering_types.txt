@@ -1,0 +1,23 @@
+In Machine learning there are two types Supervised learning and UnSupervised learning.
+Supervised   - Deals with labeled data.
+UnSupervised - Deals with Unlabeled data.
+
+Unsupervised machine learning uses machine learning algorithms to analyze and cluster unlabeled datasets.
+Unsupervised learning models are utilized for three main tasks—clustering, association, and dimensionality reduction.
+
+k-means clustering : 
+* It a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
+
+Hierarchical clustering : 
+* It is a method of cluster analysis in data mining that creates a hierarchical representation of the clusters in a dataset. The method starts by treating each data point as a separate cluster and then iteratively combines the closest clusters until a stopping criterion is reached.
+* Agglomerative Clustering - Initially all data points are cluster of its own. Then, take two nearest clusters and join them to form one single cluster. Proceed step 2 until you obtain the desired number of clusters.
+
+* Dendrogram is a tree-structured graph used in heat maps to visualize the result of a hierarchical clustering calculation. Top to bottom approach.
+
+DBSCAN Clustering :
+* It is a density-based clustering algorithm that works on the assumption that clusters are dense regions in space separated by regions of lower density.
+- It contains one centroid in a Cluster, Border point, Outlier
+- condition is is cluster has less than or equal to 4 points (whether one point centroid) then it is cluster and has one centroid and
+- if has only three or below points then there are border
+and the point is one are far is known as Outlier.
+Dbscan works with non-linear data aslo.
